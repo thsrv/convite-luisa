@@ -450,7 +450,9 @@ export default function App() {
                   </div>
                 )}
 
-
+                <p className="text-[11px] text-center text-gray-500 mb-2">
+                  Ao clicar em confirmar, você será direcionado para o WhatsApp para enviar sua confirmação à mamãe. 💕
+                </p>
                 <button type="submit" className="w-full bg-[#d474ac] hover:bg-[#bf669a] text-white font-bold py-4 rounded-xl shadow-lg shadow-pink-200 transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 text-sm mt-4">
                    <MessageCircle size={18} fill="currentColor" className="opacity-80" /> 
                    Confirmar
